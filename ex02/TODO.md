@@ -1,52 +1,52 @@
 # TODO - Exercise 02 (FragTrap)
 
 ## Prerequisites
-- [ ] ClapTrap attributes must be `protected` in ex00/ClapTrap.hpp
-- [ ] Copy ClapTrap files from ex00 to ex02
+- [ x] ClapTrap attributes must be `protected` in ex00/ClapTrap.hpp
+- [x ] Copy ClapTrap files from ex00 to ex02
 
 ## Implementation Tasks
 
 ### 1. FragTrap Class
-- [ ] Create FragTrap.hpp header file
-  - [ ] Include proper header guards
-  - [ ] Include ClapTrap.hpp
-  - [ ] Declare FragTrap class inheriting from ClapTrap
-- [ ] Create FragTrap.cpp implementation file
+- [ x] Create FragTrap.hpp header file
+  - [x ] Include proper header guards
+  - [ x] Include ClapTrap.hpp
+  - [x ] Declare FragTrap class inheriting from ClapTrap
+- [ x] Create FragTrap.cpp implementation file
 
 ### 2. Orthodox Canonical Form
-- [ ] Default constructor
-  - [ ] Call ClapTrap constructor
-  - [ ] Set Hit points to 100
-  - [ ] Set Energy points to 100
-  - [ ] Set Attack damage to 30
-  - [ ] Print construction message
-- [ ] Parameterized constructor (takes name)
-- [ ] Copy constructor
-- [ ] Assignment operator
-- [ ] Destructor (print destruction message)
+- [x ] Default constructor
+  - [ x] Call ClapTrap constructor
+  - [x ] Set Hit points to 100
+  - [ x] Set Energy points to 100
+  - [ x] Set Attack damage to 30
+  - [x ] Print construction message
+- [x ] Parameterized constructor (takes name)
+- [ x] Copy constructor
+- [ x] Assignment operator
+- [x ] Destructor (print destruction message)
 
 ### 3. Member Functions
-- [ ] Override `attack()` function
-  - [ ] Print "FragTrap <name> attacks <target>..." instead of "ClapTrap"
-  - [ ] Keep same logic (energy/hit points checks)
-- [ ] Add `highFivesGuys()` function
-  - [ ] Print positive high fives request message
-  - [ ] No parameters, void return
+- [x ] Override `attack()` function
+  - [x ] Print "FragTrap <name> attacks <target>..." instead of "ClapTrap"
+  - [ x] Keep same logic (energy/hit points checks)
+- [ x] Add `highFivesGuys()` function
+  - [x ] Print positive high fives request message
+  - [x ] No parameters, void return
 
 ### 4. Testing
-- [ ] Create main.cpp with comprehensive tests:
-  - [ ] Test construction/destruction messages
-  - [ ] Test initial values (100 HP, 100 EP, 30 AD)
-  - [ ] Test attack() with FragTrap prefix
-  - [ ] Test highFivesGuys() function
-  - [ ] Test takeDamage() and beRepaired() (inherited)
-  - [ ] Test energy depletion scenarios
-  - [ ] Test copy constructor and assignment operator
-  - [ ] Compare with ClapTrap behavior
+- [ x] Create main.cpp with comprehensive tests:
+  - [ x] Test construction/destruction messages
+  - [x ] Test initial values (100 HP, 100 EP, 30 AD)
+  - [x ] Test attack() with FragTrap prefix
+  - [x ] Test highFivesGuys() function
+  - [x ] Test takeDamage() and beRepaired() (inherited)
+  - [x ] Test energy depletion scenarios
+  - [ x] Test copy constructor and assignment operator
+  - [x ] Compare with ClapTrap behavior
 
 ### 5. Compilation
-- [ ] Create/update Makefile
-  - [ ] Add ClapTrap.cpp, FragTrap.cpp, main.cpp to FILES
+- x[ ] Create/update Makefile
+  - [ x] Add ClapTrap.cpp, FragTrap.cpp, main.cpp to FILES
   - [ ] Update NAME to FragTrap
   - [ ] Ensure compilation with -Wall -Wextra -Werror -std=c++98
 - [ ] Test compilation: `make`

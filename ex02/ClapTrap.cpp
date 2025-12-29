@@ -43,7 +43,7 @@ ClapTrap::~ClapTrap(){
     std::cout << "destructor called" << std::endl;
 }
 
-ClapTrap::ClapTrap() : _hitPoints(10), _energyPoints(10), _attackDamage(0){
+ClapTrap::ClapTrap() : _hitPoints(100), _energyPoints(100), _attackDamage(30){
     std::cout  << "default constructor called" << std::endl;
 }
 

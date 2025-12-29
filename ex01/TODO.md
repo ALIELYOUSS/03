@@ -1,37 +1,37 @@
 # TODO - Exercise 01 (ScavTrap)
 
 ## Prerequisites
-- [ ] Change ClapTrap attributes from `private` to `protected` in ex00/ClapTrap.hpp
-- [ ] Copy ClapTrap files from ex00 to ex01
+- [ x] Change ClapTrap attributes from `private` to `protected` in ex00/ClapTrap.hpp
+- [x ] Copy ClapTrap files from ex00 to ex01
 
 ## Implementation Tasks
 
 ### 1. ScavTrap Class
-- [ ] Create ScavTrap.hpp header file
-  - [ ] Include proper header guards
-  - [ ] Include ClapTrap.hpp
-  - [ ] Declare ScavTrap class inheriting from ClapTrap
-- [ ] Create ScavTrap.cpp implementation file
+- [x ] Create ScavTrap.hpp header file
+  - [ x] Include proper header guards
+  - [ x] Include ClapTrap.hpp
+  - [ x] Declare ScavTrap class inheriting from ClapTrap
+- [x ] Create ScavTrap.cpp implementation file
 
 ### 2. Orthodox Canonical Form
-- [ ] Default constructor
-  - [ ] Call ClapTrap constructor
-  - [ ] Set Hit points to 100
-  - [ ] Set Energy points to 50
-  - [ ] Set Attack damage to 20
-  - [ ] Print construction message
-- [ ] Parameterized constructor (takes name)
-- [ ] Copy constructor
-- [ ] Assignment operator
-- [ ] Destructor (print destruction message)
+- [x ] Default constructor
+  - [ x] Call ClapTrap constructor
+  - [ x] Set Hit points to 100
+  - [x ] Set Energy points to 50
+  - [x ] Set Attack damage to 20
+  - [x ] Print construction message
+- [x ] Parameterized constructor (takes name)
+- [x ] Copy constructor
+- [ x] Assignment operator
+- [ x] Destructor (print destruction message)
 
 ### 3. Member Functions
-- [ ] Override `attack()` function
-  - [ ] Print "ScavTrap <name> attacks <target>..." instead of "ClapTrap"
-  - [ ] Keep same logic (energy/hit points checks)
-- [ ] Add `guardGate()` function
-  - [ ] Print "ScavTrap is now in Gate keeper mode"
-  - [ ] No parameters, no return value
+- [ x] Override `attack()` function
+  - [x ] Print "ScavTrap <name> attacks <target>..." instead of "ClapTrap"
+  - [x ] Keep same logic (energy/hit points checks)
+- [x ] Add `guardGate()` function
+  - [ x] Print "ScavTrap is now in Gate keeper mode"
+  - [x ] No parameters, no return value
 
 ### 4. Testing
 - [ ] Create main.cpp with comprehensive tests:
