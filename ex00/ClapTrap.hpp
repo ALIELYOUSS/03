@@ -22,4 +22,5 @@ public:
 	unsigned int getAttackDamage() const;
 	ClapTrap& 	 operator=(const ClapTrap& other);
 };
+
 # endif

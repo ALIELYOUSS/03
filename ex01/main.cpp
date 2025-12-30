@@ -1,20 +1,24 @@
 #include "ScavTrap.hpp"
 
-int main(){
-    ScavTrap robot1("CT-01");
-    robot1.attack("target");
-    robot1.takeDamage(5);
-    robot1.beRepaired(3);
-    
-    ScavTrap robot2("CT-02");
-    for (int i = 0; i < 11; i++)
-        robot2.attack("enemy");
-    robot2.beRepaired(5);
-    
-    ScavTrap robot3("CT-03");
-    robot3.takeDamage(15);
-    robot3.attack("enemy");
-    robot3.beRepaired(5);
-    
+int main() {
+    ScavTrap a("Bob");
+
+    std::cout << "HP: " << a.getHitPoints() << std::endl;
+    std::cout << "EP: " << a.getEnergyPoints() << std::endl;
+    std::cout << "AD: " << a.getAttackDamage() << std::endl;
+
+    a.attack("enemy");
+    a.takeDamage(30);
+    a.beRepaired(10);
+
+    a.guardGate();
+
+    for (int i = 0; i < 55; i++)
+        a.attack("enemy");
+
+    ScavTrap b(a);
+    ScavTrap c;
+    c = a;
     return 0;
 }
+    

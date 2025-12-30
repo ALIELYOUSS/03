@@ -18,7 +18,7 @@ FragTrap::FragTrap(const FragTrap& other) : ClapTrap(other){
 
 FragTrap& FragTrap::operator=(const FragTrap& other){
     if (this != &other)
-        FragTrap::operator=(other);
+        ClapTrap::operator=(other);
     return *this;
 }
 

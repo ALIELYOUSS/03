@@ -47,7 +47,7 @@ ClapTrap::ClapTrap() : _hitPoints(100), _energyPoints(50), _attackDamage(20){
     std::cout  << "default constructor called" << std::endl;
 }
 
-ClapTrap::ClapTrap(const std::string _name) : _name(_name), _hitPoints(10), _energyPoints(10), _attackDamage(0){
+ClapTrap::ClapTrap(const std::string _name) : _name(_name), _hitPoints(100), _energyPoints(50), _attackDamage(20){
     std::cout << _name << ": called param constructor" << std::endl;
 }
 

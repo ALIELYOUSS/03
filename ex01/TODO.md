@@ -34,8 +34,8 @@
   - [x ] No parameters, no return value
 
 ### 4. Testing
-- [ ] Create main.cpp with comprehensive tests:
-  - [ ] Test construction/destruction messages
+- [x] Create main.cpp with comprehensive tests:
+  - [x ] Test construction/destruction messages
   - [ ] Test initial values (100 HP, 50 EP, 20 AD)
   - [ ] Test attack() with ScavTrap prefix
   - [ ] Test guardGate() function
